@@ -30,10 +30,10 @@ range("20 .. 12, 12 .. 20 x 3");
 ### Specifics on Syntax
 
 - You have any number of `,`-deliminated sections. Each section will be represented in the result, in order.
-- Each section is of one of these types:
-    - A single value.<br>(`"5"` or `"-20"`.)
-    - A start and an end value separated by `..`.<br>(`"1..42"` or `"7 .. -13"`)
-    - A start and an end value separated by `..`, with a positive step value after a `x`.<br>(`"1 .. 10 x 3"` or `"22 .. -13 x 5"`)
+- Each section should be one of these types:
+    - A single value.<br>(eg: `"5"` or `"-20"`.)
+    - A start and an end value separated by `..`.<br>(eg: `"1..42"` or `"7 .. -13"`)
+    - A start and an end value separated by `..`, with a positive step value after a `x`.<br>(eg: `"1 .. 10 x 3"` or `"22 .. -13 x 5"`)
 
 ### License
 MIT
