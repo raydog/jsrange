@@ -1,4 +1,4 @@
-jsrange
+jsrange [![Build Status](https://travis-ci.org/raydog/jsrange.svg?branch=master)](https://travis-ci.org/raydog/jsrange)
 =======
 
 An extremely simple range lib, for expanding "1..3,5..7"-like strings into [1, 2, 3, 5, 6, 7]
