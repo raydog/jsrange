@@ -5,7 +5,8 @@
   "author": "Ray Myers <raydog87@gmail.com>",
   "scripts": {
     "test": "mocha -R spec --check-leaks test.js",
-    "coverage": "istanbul cover _mocha -- -R spec test.js"
+    "coverage": "istanbul cover _mocha -- -R spec test.js",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- test.js && cat ./coverage/lcov.info | coveralls"
   },
   "main": "index.js",
   "repository": {
@@ -19,8 +20,9 @@
     "range"
   ],
   "devDependencies": {
-    "mocha": "2.0.1",
-    "istanbul": "0.3.2"
+    "coveralls": "2.11.15",
+    "istanbul": "0.4.5",
+    "mocha": "3.1.2"
   },
   "license": "MIT"
 }
