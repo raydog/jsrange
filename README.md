@@ -1,4 +1,4 @@
-jsrange [![Build Status](https://travis-ci.org/raydog/jsrange.svg?branch=master)](https://travis-ci.org/raydog/jsrange) [![Coverage Status](https://coveralls.io/repos/github/raydog/jsrange/badge.svg?branch=master)](https://coveralls.io/github/raydog/jsrange?branch=master)
+jsrange [![Build Status](https://travis-ci.com/raydog/jsrange.svg?branch=master)](https://travis-ci.com/raydog/jsrange) [![Coverage Status](https://coveralls.io/repos/github/raydog/jsrange/badge.svg?branch=master)](https://coveralls.io/github/raydog/jsrange?branch=master)
 =======
 
 An extremely simple range lib, for expanding "1..3,5..7"-like strings into [1, 2, 3, 5, 6, 7]
